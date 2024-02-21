@@ -72,8 +72,17 @@ wynd-utils = "0.4"
 # optional owner.
 cw-ownable = "0.5"
 
-cw-tokenfactory-issuer = { path = "./contracts/external/cw-tokenfactory-issuer", version = "2.4.0" }
+cw-tokenfactory-issuer = { path = "./contracts//cw-tokenfactory-issuer", version = "2.4.0" }
 cw-tokenfactory-types = { path = "./packages/cw-tokenfactory-types", version = "2.4.0", default-features = false }
+cw-wormhole = { path = "./packages/cw-wormhole", version = "2.4.0" }
+cw721-controllers = { path = "./packages/cw721-controllers", version = "2.4.0" }
+dao-cw721-extensions = { path = "./packages/dao-cw721-extensions", version = "2.4.0" }
+dao-dao-macros = { path = "./packages/dao-dao-macros", version = "2.4.0" }
+dao-hooks = { path = "./packages/dao-hooks", version = "2.4.0" }
+dao-interface = { path = "./packages/dao-interface", version = "2.4.0" }
+dao-pre-propose-base = { path = "./packages/dao-pre-propose-base", version = "2.4.0" }
+dao-testing = { path = "./packages/dao-testing", version = "2.4.0" }
+dao-voting = { path = "./packages/dao-voting", version = "2.4.0" }
 
 # v1 dependencies. used for state migrations.
 cw-core-v1 = { package = "cw-core", version = "0.1.0" }
